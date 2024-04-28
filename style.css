@@ -1,0 +1,52 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-img-top {
+    max-height: 400px;
+    width: auto;
+}
+
+#carrello{
+    display: flex;
+}
+
+#carrello span{
+    margin-left: auto;
+    margin-right: 10px;
+    height: 23px;
+    margin-top: 12px;
+}
+
+#carrello a{
+    margin-right: 10px;
+    margin-top: 9px;
+}
+
+.card-body img{
+    margin-left: 50px;
+}
+
+.vuoto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    flex-direction: column;
+    color: #2F2F2F;
+}
+
+.vuoto img{
+    width: 10vw;
+}
+
+body{
+    background-image: url(assets/alexander-london-hGs0p4ZtrAY-unsplash.png);
+    background-size: cover;
+}
